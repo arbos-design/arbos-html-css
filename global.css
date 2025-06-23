@@ -1,0 +1,618 @@
+body {
+    margin: 0;
+    background-color: #F5F8FF;
+}
+
+/* Background Header Image */
+.background-header {
+    background-image: url("assets/header-logo.png");
+    background-size: 30% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-header header,
+.background-header .hero {
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav button {
+    font-family: "JetBrains Mono", monospace;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+nav button.primary {
+    background-color: transparent;
+    color: #777;
+}
+
+nav button.primary:hover {
+    color: #060606;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button.sign-in {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: transparent;
+    color: #777;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.connect {
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 3px solid #3554d4;
+    border-radius: 5px;
+    padding: 8px 12px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3554d4;
+}
+
+.connect:hover {
+    transform: translateY(-1px);
+}
+
+.connect i {
+    font-size: 16px;
+    color: #3554d4;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    max-width: 600px;
+    width: 100%;
+    margin: 75px auto 0;
+    background: #ffffff4d;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff4d;
+}
+
+.hero-input input[type="text"] {
+    font-family: "JetBrains Mono", monospace;
+    flex-grow: 1;
+    padding: 15px 25px;
+    border: none;
+    font-size: 1em;
+    background: transparent;
+    color: #333;
+}
+
+.hero-input button.primary {
+    font-family: "Space Grotesk", sans-serif;
+    background: linear-gradient(90deg, #5c62ec 0%, #7a6aec 100%);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.hero-input button.primary:hover {
+    background: linear-gradient(90deg, #7a6aec 0%, #5c62ec 100%);
+    transform: translateY(-1px);
+}
+
+/* Main */
+main.main-content {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* Who-are-we Section */
+.who-are-we {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.who-are-we h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2.5em;
+    padding-left: 20px;
+}
+
+.who-are-we-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0 20px;
+    transform: translateY(-2px);
+}
+
+.who-are-we-card {
+    background-color: #3554d4;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #eee;
+}
+
+.who-are-we-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0px 10px #3554d4;
+    border: none
+}
+
+.who-are-we-card h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.who-are-we-card p {
+    font-family: "JetBrains Mono", monospace;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Testimonials Section with carousel */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.testimonial-intro {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5em;
+    color: #777;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #eee;
+    min-width: 300px;
+    scroll-snap-align: center;
+    box-shadow: 0 0px 12px #1e3078;
+    border: 1px solid #1e3078;
+}
+
+.testimonial-card .author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.testimonial-card .author-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial-card .rating {
+    color: #E87BC0;
+    font-size: 1.2em;
+}
+
+.testimonial-card .testimonial-date {
+    color: #999;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .quote {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Carousel */
+
+.carousel-container {
+    font-family: "JetBrains Mono", monospace;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 20px;
+    scrollbar-width: none;
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel {
+    display: flex;
+    gap: 20px;
+}
+
+/* Avatars */
+.ratings-summary {
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+    max-width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.avatars {
+    display: flex;
+    gap: 5px;
+}
+
+.avatars img {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.rating-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 0.1;
+}
+
+.average-rating {
+    color: #333;
+    margin-bottom: 0%;
+}
+
+.star-rating {
+    color: #ffc107;
+    font-size: 1.2em;
+}
+
+/* FAQ Section */
+.faq-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 40px 20px;
+}
+
+.faq h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2.5em;
+    color: #286091;
+    margin: 0;
+    flex-shrink: 0;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.faq-list {
+    flex: 1;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.faq-item:hover {
+    border-radius: 10px;
+    box-shadow: 0 0px 10px #E87BC0;
+    border: none;
+    padding: 2px 5px;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+/* cacher les checkboxes */
+.faq-toggle {
+    display: none;
+}
+
+.faq-question {
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    background-color: transparent;
+    border: none;
+    color: #286091;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-question:focus {
+    outline: none;
+}
+
+.faq-icon {
+    font-size: 1.5em;
+    color: #ccc;
+    transition: transform 0.3s ease;
+}
+
+/* changer l'icône lorsque la checkbox est cochée */
+.faq-toggle:checked+.faq-question .faq-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    font-family: "JetBrains Mono", monospace;
+    padding: 15px 0;
+    color: #286091;
+    line-height: 1.6;
+    display: none;
+}
+
+/* afficher la réponse lorsque la checkbox correspondante est cochée */
+.faq-toggle:checked+.faq-question+.faq-answer {
+    display: block;
+}
+
+.faq-answer p {
+    margin-bottom: 10px;
+}
+
+/* Background Footer Image */
+.background-footer {
+    background-image: url("assets/footer-vector.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+
+.background-footer .contact,
+.background-fotter footer {
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-family: "Space Grotesk", sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+    font-family: "Space Grotesk", sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-group input:hover {
+    border-radius: 4px;
+    box-shadow: 0 0px 10px #E87BC0;
+    border: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group textarea:hover {
+    border-radius: 4px;
+    box-shadow: 0 0px 10px #E87BC0;
+    border: none;
+}
+
+.submit-button {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #3554D4;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.submit-button:hover {
+    background-color: #5256df;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer-logo img {
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.footer-nav ul {
+    font-family: "Space Grotesk", sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+    color: #286091;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer-social a:hover {
+    background-color: white;
+    color: #286091;
+}

@@ -6,4 +6,4 @@ code HTML/CSS application 'arbos'
 
 2. Extrayez l’archive .zip sur votre ordinateur
 
-3. Ouvrez le fichier global.html avec votre navigateur web (double clic)
+3. Ouvrez le fichier index.html avec votre navigateur web (double clic)

@@ -2,277 +2,293 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arbos</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- lock icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arbos</title>
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+xintegrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+rel="stylesheet">
 </head>
 
 <body>
-    <!-- background header start -->
-    <div class="background-header">
-        <!-- header start -->
-        <header>
-            <div class="logo">
-                <img src="assets/logo.png" alt="arbos Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><button class="primary">Générer site map</button></li>
-                    <li><button class="primary">Contact</button></li>
-                    <li><button class="primary">Aide</button></li>
-                </ul>
-            </nav>
-            <div class="actions">
-                <button class="sign-in">S'inscrire</button>
-                <button class="connect">
-                    <i class="fas fa-lock"></i>
-                    <span>Se connecter</span>
-                </button>
-            </div>
-        </header>
-        <!-- header end -->
-        <!-- hero section start -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Obtenez en un instant<br>
-                    <strong>l'arborescence interactive</strong> de<br>
-                    n'importe quel site web.
-                </h1>
-                <div class="hero-input">
-                    <input type="text" placeholder="Coller une URL...">
-                    <button class="primary">
-                        <strong>Créer une arbo &#8626;</strong>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <!-- hero section stop -->
+<div class="background-header">
+<header>
+    <div class="logo">
+        <img src="assets/logo.png" alt="Arbos Logo">
     </div>
-    <!-- background header stop -->
-
-    <!-- main start -->
-    <main>
-        <!-- who-are-we section start -->
-        <section class="who-are-we">
-            <h2>Pourquoi faire ?</h2>
-            <div class="who-are-we-grid">
-                <div class="who-are-we-card">
-                    <h3>+ Pratique</h3>
-                    <p>Arbos est conçu pour vous faire gagner du temps. En quelques secondes, visualisez
-                        l'arborescence d'un site web et accédez aux informations essentielles sans effort. Un outil
-                        pensé pour être efficace et intuitif dès la première utilisation.</p>
-                </div>
-                <div class="who-are-we-card">
-                    <h3>+ Ludique</h3>
-                    <p>Analyser une arborescence ne doit pas être ennuyeux. Grâce à une interface interactive et fluide,
-                        naviguer entre les pages devient une expérience visuelle engageante. Chaque interaction est
-                        pensée pour rendre l'exploration plus agréable et intuitive.</p>
-                </div>
-                <div class="who-are-we-card">
-                    <h3>+ Simple</h3>
-                    <p>From concPas de paramètres compliqués, pas d'interface surchargée. Arbos mise sur la
-                        clarté et l'accessibilité pour offrir une expérience fluide et directe. Collez une URL, obtenez
-                        une arborescence, explorez. Tout simplement, ept to launch, we create stunning, user-centric
-                        websites that elevate your brand and engage your audience.</p>
-                </div>
-            </div>
-        </section>
-        <!-- who-are-we section stop -->
-
-        <!-- testimonials section start -->
-        <section class="testimonials">
-            <h2>Découvrez nos avis</h2>
-            <p class="testimonial-intro">Ils ont testé Arbos et l'ont adopté !</p>
-            <!-- carousel start -->
-            <div class="carousel-container">
-                <div class="carousel">
-                    <div class="testimonial-card">
-                        <p class="author-info">
-                            <span class="author-name">Marc D. - Webdesigner</span>
-                            <span class="rating">★★★★★</span>
-                        </p>
-                        <p class="testimonial-date">Il y a 1 jour</p>
-                        <p class="quote">Arbos m'a fait gagner un temps fou dans l'analyse des sites web. Simple,
-                            rapide et ultra efficace !</p>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="author-info">
-                            <span class="author-name">Sophie L. - Développeuse web</span>
-                            <span class="rating">★★★★★</span>
-                        </p>
-                        <p class="testimonial-date">Il y a 2 jours</p>
-                        <p class="quote">Enfin un moyen visuel et intuitif d'explorer l'arborescence d'un site !
-                            L'interface
-                            est fluide et agréable à utiliser.</p>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="author-info">
-                            <span class="author-name">Pierre M. - SEO</span>
-                            <span class="rating">★★★★★</span>
-                        </p>
-                        <p class="testimonial-date">Il y a 3 jours</p>
-                        <p class="quote">Un outil indispensable pour tout professionnel du web. Je le recommande
-                            vivement !
-                        </p>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="author-info">
-                            <span class="author-name">Julie R. - Marketeuse</span>
-                            <span class="rating">★★★★★</span>
-                        </p>
-                        <p class="testimonial-date">Il y a 4 jours</p>
-                        <p class="quote">Très pratique pour visualiser rapidement la structure d'un site concurrent. Un
-                            must-have !</p>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="author-info">
-                            <span class="author-name">Gaëlle L. - Développeuse fullstack</span>
-                            <span class="rating">★★★★</span>
-                        </p>
-                        <p class="testimonial-date">Il y a 4 jours</p>
-                        <p class="quote">Enfin un moyen visuel et intuitif d'explorer l'arborescence d'un site !
-                            L'interface
-                            est fluide et agréable à utiliser</p>
-                    </div>
-                </div>
-            </div>
-            <!-- carousel stop -->
-            <!-- avatars start -->
-            <div class="ratings-summary">
-                <div class="avatars">
-                    <img src="assets/avatar1.png" alt="Avatar 1" width="24" height="24">
-                    <img src="assets/avatar2.png" alt="Avatar 2" width="24" height="24">
-                    <img src="assets/avatar3.png" alt="Avatar 3" width="24" height="24">
-                    <img src="assets/avatar4.png" alt="Avatar 4" width="24" height="24">
-                    <img src="assets/avatar5.png" alt="Avatar 5" width="24" height="24">
-                </div>
-                <div class="rating-info">
-                    <p class="average-rating"><strong>5.0</strong> Basé sur <strong>145</strong> Avis</p>
-                    <p class="star-rating">★★★★★</p>
-                </div>
-            </div>
-            <!-- avatars start -->
-        </section>
-        <!-- testimonials section stop -->
-
-        <!-- FAQ section start -->
-        <section class="faq">
-            <div class="faq-container">
-                <h2>Questions Fréquentes</h2>
-                <div class="faq-list">
-                    <div class="faq-item">
-                        <input type="checkbox" id="q1" class="faq-toggle">
-                        <label for="q1" class="faq-question">
-                            Comment fonctionne Arbos ?
-                            <span class="faq-icon">+</span>
-                        </label>
-                        <div class="faq-answer">
-                            <p>Arbos analyse l'architecture d'un site web à partir d'une URL et génère une
-                                visualisation claire de son arborescence.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <input type="checkbox" id="q2" class="faq-toggle">
-                        <label for="q2" class="faq-question">
-                            Dois-je installer un logiciel ?
-                            <span class="faq-icon">+</span>
-                        </label>
-                        <div class="faq-answer">
-                            <p>Non, Arbos est un outil en ligne. Vous n'avez besoin d'installer aucun logiciel.
-                                Il
-                                suffit d'accéder au site web et d'entrer l'URL à analyser.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <input type="checkbox" id="q3" class="faq-toggle">
-                        <label for="q3" class="faq-question">
-                            Puis-je exporter les sitemaps générés ?
-                            <span class="faq-icon">+</span>
-                        </label>
-                        <div class="faq-answer">
-                            <p>Oui, Arbos vous offre la possibilité d'exporter les sitemaps générés dans
-                                différents
-                                formats (XML, CSV, etc.) pour une utilisation ultérieure.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <input type="checkbox" id="q4" class="faq-toggle">
-                        <label for="q4" class="faq-question">
-                            Arbos est-il compatible avec les CMS ?
-                            <span class="faq-icon">+</span>
-                        </label>
-                        <div class="faq-answer">
-                            <p>Arbos fonctionne indépendamment du CMS utilisé par le site web. Il analyse la
-                                structure visible du site à partir de l'URL fournie.</p>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- FAQ section stop -->
-    </main>
-    <!-- main stop -->
-
-    <!-- background footer start -->
-    <div class="background-footer">
-        <!-- contact section start -->
-        <section class="contact">
-            <h2>Contactez-nous</h2>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
-                </div>
-                <div class="form-group">
-                    <label for="name">Nom</label>
-                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="submit-button">Nous contacter<i class="fa fa-envelope"></i></button>
-            </form>
-        </section>
-        <!-- contact section stop -->
-        <!-- footer start -->
-        <footer>
-            <div class="footer-content">
-                <div class="footer-left">
-                    <div class="footer-logo">
-                        <img src="assets/logo.png" alt="arbos Logo">
-                    </div>
-                </div>
-                <nav class="footer-nav">
-                    <ul>
-                        <li><button class="primary">Générer site map</button></li>
-                        <li><button class="primary">Contact</button></li>
-                        <li><button class="primary">Aide</button></li>
-                    </ul>
-                </nav>
-                <div class="footer-right">
-                    <div class="footer-social">
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                        <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer stop -->
+    <nav>
+        <ul>
+            <li><button class="primary">Générer site map</button></li>
+            <li><button class="primary">Contact</button></li>
+            <li><button class="primary">Aide</button></li>
+        </ul>
+    </nav>
+    <div class="actions">
+        <button class="sign-in">S'inscrire</button>
+        <button class="connect">
+            <i class="fas fa-lock"></i>
+            <span>Se connecter</span>
+        </button>
     </div>
-    <!-- background header stop -->
+    <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<div class="mobile-nav">
+    <ul>
+        <li><a href="#who-are-we">Fonctionnalités</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="sign-in">S'inscrire</button>
+    <button class="connect">
+        <i class="fas fa-lock"></i> Se connecter
+    </button>
+</div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Obtenez en un instant<br>
+            <strong>l'arborescence interactive</strong> de<br>
+            n'importe quel site web.
+        </h1>
+        <div class="hero-input">
+            <input type="text" placeholder="Coller une URL...">
+            <button class="primary">
+                <strong>Créer une arbo &#8626;</strong>
+            </button>
+        </div>
+    </div>
+</section>
+</div>
+
+<main class="main-content">
+<section class="who-are-we" id="who-are-we">
+    <h2>Pourquoi faire ?</h2>
+    <div class="who-are-we-grid">
+        <div class="who-are-we-card">
+            <h3>+ Pratique</h3>
+            <p>Arbos est conçu pour vous faire gagner du temps. En quelques secondes, visualisez
+                l'arborescence d'un site web et accédez aux informations essentielles sans effort. Un outil
+                pensé pour être efficace et intuitif dès la première utilisation.</p>
+        </div>
+        <div class="who-are-we-card">
+            <h3>+ Ludique</h3>
+            <p>Analyser une arborescence ne doit pas être ennuyeux. Grâce à une interface interactive et fluide,
+                naviguer entre les pages devient une expérience visuelle engageante. Chaque interaction est
+                pensée pour rendre l'exploration plus agréable et intuitive.</p>
+        </div>
+        <div class="who-are-we-card">
+            <h3>+ Simple</h3>
+            <p>From concPas de paramètres compliqués, pas d'interface surchargée. Arbos mise sur la
+                clarté et l'accessibilité pour offrir une expérience fluide et directe. Collez une URL, obtenez
+                une arborescence, explorez. Tout simplement, ept to launch, we create stunning, user-centric
+                websites that elevate your brand and engage your audience.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+    <h2>Découvrez nos avis</h2>
+    <p class="testimonial-intro">Ils ont testé Arbos et l'ont adopté !</p>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="testimonial-card">
+                <p class="author-info">
+                    <span class="author-name">Marc D. - Webdesigner</span>
+                    <span class="rating">★★★★★</span>
+                </p>
+                <p class="testimonial-date">Il y a 1 jour</p>
+                <p class="quote">Arbos m'a fait gagner un temps fou dans l'analyse des sites web. Simple,
+                    rapide et ultra efficace !</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="author-info">
+                    <span class="author-name">Sophie L. - Développeuse web</span>
+                    <span class="rating">★★★★★</span>
+                </p>
+                <p class="testimonial-date">Il y a 2 jours</p>
+                <p class="quote">Enfin un moyen visuel et intuitif d'explorer l'arborescence d'un site !
+                    L'interface
+                    est fluide et agréable à utiliser.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="author-info">
+                    <span class="author-name">Pierre M. - SEO</span>
+                    <span class="rating">★★★★★</span>
+                </p>
+                <p class="testimonial-date">Il y a 3 jours</p>
+                <p class="quote">Un outil indispensable pour tout professionnel du web. Je le recommande
+                    vivement !
+                </p>
+            </div>
+            <div class="testimonial-card">
+                <p class="author-info">
+                    <span class="author-name">Julie R. - Marketeuse</span>
+                    <span class="rating">★★★★★</span>
+                </p>
+                <p class="testimonial-date">Il y a 4 jours</p>
+                <p class="quote">Très pratique pour visualiser rapidement la structure d'un site concurrent. Un
+                    must-have !</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="author-info">
+                    <span class="author-name">Gaëlle L. - Développeuse fullstack</span>
+                    <span class="rating">★★★★</span>
+                </p>
+                <p class="testimonial-date">Il y a 4 jours</p>
+                <p class="quote">Enfin un moyen visuel et intuitif d'explorer l'arborescence d'un site !
+                    L'interface
+                    est fluide et agréable à utiliser</p>
+            </div>
+        </div>
+    </div>
+    <div class="ratings-summary">
+        <div class="avatars">
+            <img src="assets/avatar1.png" alt="Avatar 1">
+            <img src="assets/avatar2.png" alt="Avatar 2">
+            <img src="assets/avatar3.png" alt="Avatar 3">
+            <img src="assets/avatar4.png" alt="Avatar 4">
+            <img src="assets/avatar5.png" alt="Avatar 5">
+        </div>
+        <div class="rating-info">
+            <p class="average-rating"><strong>5.0</strong> Basé sur <strong>145</strong> Avis</p>
+            <p class="star-rating">★★★★★</p>
+        </div>
+    </div>
+</section>
+
+<section class="faq" id="faq">
+    <div class="faq-container">
+        <h2>Questions Fréquentes</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <input type="checkbox" id="q1" class="faq-toggle">
+                <label for="q1" class="faq-question">
+                    Comment fonctionne Arbos ?
+                    <span class="faq-icon">+</span>
+                </label>
+                <div class="faq-answer">
+                    <p>Arbos analyse l'architecture d'un site web à partir d'une URL et génère une
+                        visualisation claire de son arborescence.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q2" class="faq-toggle">
+                <label for="q2" class="faq-question">
+                    Dois-je installer un logiciel ?
+                    <span class="faq-icon">+</span>
+                </label>
+                <div class="faq-answer">
+                    <p>Non, Arbos est un outil en ligne. Vous n'avez besoin d'installer aucun logiciel.
+                        Il
+                        suffit d'accéder au site web et d'entrer l'URL à analyser.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q3" class="faq-toggle">
+                <label for="q3" class="faq-question">
+                    Puis-je exporter les sitemaps générés ?
+                    <span class="faq-icon">+</span>
+                </label>
+                <div class="faq-answer">
+                    <p>Oui, Arbos vous offre la possibilité d'exporter les sitemaps générés dans
+                        différents
+                        formats (XML, CSV, etc.) pour une utilisation ultérieure.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q4" class="faq-toggle">
+                <label for="q4" class="faq-question">
+                    Arbos est-il compatible avec les CMS ?
+                    <span class="faq-icon">+</span>
+                </label>
+                <div class="faq-answer">
+                    <p>Arbos fonctionne indépendamment du CMS utilisé par le site web. Il analyse la
+                        structure visible du site à partir de l'URL fournie.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<div class="background-footer">
+<section class="contact" id="contact">
+    <h2>Contactez-nous</h2>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Nous contacter<i class="fa fa-envelope"></i></button>
+    </form>
+</section>
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Arbos Logo">
+            </div>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><button class="primary">Générer site map</button></li>
+                <li><button class="primary">Contact</button></li>
+                <li><button class="primary">Aide</button></li>
+            </ul>
+        </nav>
+        <div class="footer-right">
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const navLinks = mobileNav.querySelectorAll('a, button'); 
+
+    function toggleMenu() {
+        hamburgerMenu.classList.toggle('open');
+        mobileNav.classList.toggle('active');
+        document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+    }
+
+    hamburgerMenu.addEventListener('click', toggleMenu);
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            setTimeout(toggleMenu, 100); 
+        });
+    });
+});
+</script>
 </body>
 
 </html>
